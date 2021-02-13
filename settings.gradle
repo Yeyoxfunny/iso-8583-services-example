@@ -1,0 +1,3 @@
+rootProject.name = 'iso-8583-services-example'
+include 'iso-8583-client'
+include 'iso-8583-server'
