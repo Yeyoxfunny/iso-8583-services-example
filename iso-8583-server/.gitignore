@@ -1,0 +1,22 @@
+*.swp
+.DS_Store
+
+# IDEA Ignores
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Eclipse Ignores
+.classpath
+.metadata
+.settings
+.project
+bin/main
+bin/default
+bin/test
+
+# Gradle Ignores
+.gradle
+build
+
