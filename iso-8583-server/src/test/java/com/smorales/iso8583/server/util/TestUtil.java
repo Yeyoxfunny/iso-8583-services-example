@@ -1,5 +1,5 @@
 
-package com.valid.transport.swittch.processing.util;
+package com.smorales.iso8583.server.util;
 
 import javax.xml.bind.DatatypeConverter;
 

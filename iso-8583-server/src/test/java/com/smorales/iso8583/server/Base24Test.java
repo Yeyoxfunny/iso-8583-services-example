@@ -1,7 +1,7 @@
 
-package com.valid.transport.swittch.processing;
+package com.smorales.iso8583.server;
 
-import static com.valid.transport.swittch.processing.util.TestUtil.hex2ByteArray;
+import static com.smorales.iso8583.server.util.TestUtil.hex2ByteArray;
 
 import org.jpos.iso.ISOException;
 import org.jpos.iso.ISOMsg;
