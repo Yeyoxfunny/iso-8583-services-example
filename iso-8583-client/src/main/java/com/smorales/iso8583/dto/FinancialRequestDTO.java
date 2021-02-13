@@ -1,6 +1,8 @@
 package com.smorales.iso8583.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.smorales.iso8583.serializers.AmountDeserializer;
 import io.swagger.annotations.ApiModelProperty;
 
 import javax.validation.constraints.DecimalMin;
@@ -17,6 +19,8 @@ public class FinancialRequestDTO {
     @Digits(
             integer = 10,
             fraction = 2)
+    @JsonDeserialize(
+            using = AmountDeserializer.class)
     private BigDecimal amount;
 
     @NotNull
